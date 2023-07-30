@@ -2,10 +2,13 @@
 
 int main() {
   // Add your code below  
-  int miles;
-  int kilom = miles*1.609344;
-std::cout << "Enter a distance in miles:";
-std::cin >> miles;
+  double miles;
+
+  std::cout << "Enter a distance in miles: ";
+  std::cin >> miles;
+
+  double kilom = miles * 1.60934;
+
 
 std::cout << "The distance in kilometers is: " << kilom << "\n";
 
